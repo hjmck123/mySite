@@ -1,6 +1,7 @@
 <template name="appBody">
-
   {{> navBar }}
 
-  <p> its the main page k?</p>
+  <div class="content">
+    {{> Template.dynamic template=getContent}}
+  </div>
 </template>
